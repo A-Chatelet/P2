@@ -1,0 +1,87 @@
+@media screen and (max-width: 992px)and (min-width: 769px) {
+
+  /**************************** Header ***********************************/
+  header nav {
+    width: 40%;
+  }
+
+  header li:active {
+    border-top: 2px solid #0065fc;
+  }
+
+  header a:active {
+    color: #0065fc;
+  }
+
+  /**************************** main *************************************/
+  .filters-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filters-title {
+    margin: 0 auto 20px;
+  }
+
+  .all-filters {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .popular,
+  .hosting {
+    width: 100%;
+    border-radius: 0;
+
+  }
+
+  .popular-bedroom {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .popular-bedroom article {
+    width: 30%;
+    height: 70%;
+
+  }
+
+  .popular img {
+    height: 100%;
+  }
+
+  .popular p {
+    margin-bottom: 60px;
+    width: 100%;
+  }
+
+  .popular article:nth-child(2) {
+    margin: auto;
+    height: 60%;
+  }
+
+
+
+
+  /**************************** Footer ***********************************/
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .first-block,
+  footer .second-block {
+    margin-right: 100px;
+  }
+
+  body {
+    pointer-events: none;
+  }
+}
